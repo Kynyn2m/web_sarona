@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - RENTAL WEB SERVICE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ffffff;
+            /* Light gray background */
+        }
+
+        .form-container {
+            max-width: 350px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: #c8c8c8;
+            /* White background for forms */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            /* Optional: Box shadow for a subtle effect */
+        }
+
+        .navbar {
+            background-color: #c8c8c8
+                /* Blue background color */
+        }
+
+        .navbar-brand {
+            color: #ffffff !important;
+            /* White text color */
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            /* White text color */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">RENTAL WEB SERVICE</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+            <h2 class="text-center mb-4">Register</h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="FullName" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="PhoneNumber" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </form>
+            <p class="text-center mt-3">Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

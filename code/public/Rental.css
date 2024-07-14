@@ -242,3 +242,12 @@ button[type=text] {
         color: black;
     }
 }
+
+
+
+/* login css */
+.login-form {
+ max-width: 350px;
+margin: auto;
+ margin-top: 50px;
+        }
